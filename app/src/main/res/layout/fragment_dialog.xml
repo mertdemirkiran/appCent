@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/container_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/standart_start_end_padding"
+                android:layout_marginEnd="@dimen/standart_start_end_padding"
+                android:background="@drawable/bg_common_dialog"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent="0.90"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageView"
+                    app:srcCompat="@drawable/ic_menu1"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_captureDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_vehicleName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_cameraName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_missionStatu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_launchDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_landingDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_16"
+                    tools:text="text1"
+                    app:layout_constraintEnd_toStartOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center"/>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_positive"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_24"
+                    android:layout_marginTop="@dimen/margin_4"
+                    android:layout_marginEnd="@dimen/margin_24"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:text="Kapat"
+                    app:cornerRadius="24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:strokeColor="@color/colorSecondary" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

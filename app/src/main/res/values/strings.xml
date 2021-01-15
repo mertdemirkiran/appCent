@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVM With Kotlin Coroutine</string>
+    <string name="as_tv_welcome">Welcome to MVVM Kotlin Coroutines Example For Appcent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_deneme">denemeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
